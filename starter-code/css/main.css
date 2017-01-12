@@ -7,4 +7,82 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: #fff url("../images/bgtile.png") repeat-x right top;
+}
+a {
+  text-decoration: none;
+}
+.page {
+  margin: 100px auto 0;
+  max-width: 800px;
+}
+
+/*-- PHONES --*/
+.phones {
+  float: left;
+  width: 36%;
+  margin-right: 4%;
+}
+.phones img {
+  width: 100%;
+  max-width: 318px;
+}
+
+/*-- MAIN --*/
+main {
+  width: 60%;
+  max-width: 504px;
+  float: right;
+  padding-top: 1em;
+}
+header a {
+  background-image:linear-gradient(to bottom, #6D90AE, #477197);
+  padding: 0.5em 1em;
+  border-radius: 3px;
+  color: #ddd;
+  box-shadow: 0 0 5px #06365f;
+  float: right;
+  margin: 1em 0.5em;
+}
+header a img {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+article {
+  background-image: url("../images/frame.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 1em 3em;
+  margin-top: 1em;
+}
+article h1 {
+  color: #06365f;
+  line-height: 1.2;
+}
+article p:last-of-type {
+  margin-bottom: 3em;
+}
+
+/*-- FOOTER --*/
+footer {
+  color: #ccc;
+  clear: both;
+  text-align: center;
+  font-size: 0.6em;
+  margin-top: 2em;
+}
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  display: inline;
+}
+footer li {
+  display: inline;
+  margin-right: 3em;
+}
+footer a {
+  color: #06365f;
+}
+footer a:hover {
+  text-decoration: underline;
 }
